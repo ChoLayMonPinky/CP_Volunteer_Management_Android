@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pre–Android 12 window background while process starts. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/cg_splash_bg" />
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_splash_logo" />
+    </item>
+</layer-list>

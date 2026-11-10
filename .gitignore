@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+.DS_Store
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+debug.keystore
+/dist/
+gradle.local.properties
+# iCloud Desktop conflict copies break Android/Gradle builds
+**/* 2.*
+**/* 3.*
+**/* 4.*
+.idea/
